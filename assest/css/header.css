@@ -1,0 +1,154 @@
+.nav-container{
+    width:72%;
+    margin :18px auto; 
+}
+header h1{
+    float: left;
+    margin: 11px 41px 13px 14px;
+    font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+header ul li{
+    float: left;
+    margin: 16px 19px;
+   
+}
+header ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    
+    color: #6C757D;
+    
+    
+}
+header a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+header ul{
+    float: left;
+
+}
+header form{
+    float :right;
+    height:100%;
+    margin: 6px 4px 4px 0px;    
+}
+header form input{
+    width: 154px;
+    height: 38px;
+  padding: 12px 15px;
+    
+    /* /Gray / White */
+    
+    background: #FFFFFF;
+    /* Stroke/light */
+    
+    border: 1px solid #DEE2E6;
+    border-radius: 4px; 
+}
+header form button{
+    width: 71px;
+    height: 37px;
+    left: 1035px;
+    top: 6px;
+    
+    /* /Status Color / Success */
+    
+    border: 1px solid #28A745;
+    border-radius: 4px;
+}
+
+.container{
+    width: 72%;
+    margin:auto;
+}
+
+.color-section{
+    float: left;
+}
+.container h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.02em;
+
+/* Heading/Title Color */
+
+color: #152536;
+margin:32px 0px;
+
+}
+.container h2{
+    margin: 54px 0px 27px;
+    font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+/* Heading/Title Color */
+
+color: #152536;
+}
+
+.color-section .primary-color{
+    width: 166px;
+height: 72px;
+background: #7749F8;
+border-radius: 8px;
+}
+.color-container h3{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Dark */
+
+color: #343A40;
+margin:13px 0px 4px;
+
+}
+.color-container p{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Body Text Color */
+
+color: #6B7176;
+
+}
+
+.color-section .dark-color{
+    width: 166px;
+height: 72px;
+background: var(--primary-dark);
+border-radius: 8px;
+}
+.color-section .light-color{
+    width: 166px;
+height: 72px;
+background: var(--primary-light);
+border-radius: 8px;
+}
+.color-section{
+    margin:0px 24px;
+}
+.color-section:first-child{
+    margin-left:0px;
+}
+

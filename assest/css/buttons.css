@@ -1,0 +1,73 @@
+.type-container table {
+  margin: 17px 0px;
+}
+.type-container table td,
+th {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  /* Body Text Color */
+
+  color: #6b7176;
+}
+.type-container table td,
+th {
+  text-align: left;
+  padding: 17.5px 160px 17.5px 0px;
+}
+
+.type-container table button {
+  border-radius: 4px;
+}
+.type-primary button {
+}
+
+/* primary color styling */
+
+.type-container table .primary-default button {
+  background-color: #7749f8;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* /Gray / White */
+
+  color: #ffffff;
+}
+.type-container table button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* /Gray / White */
+
+  color: #ffffff;
+  padding: 10px 16px;
+}
+.type-container table .outline-default button {
+  background-color: white;
+  color: #7749f8;
+}
+.type-container table .primary-hover button {
+  background-color: #5227cc;
+  color: white;
+}
+.type-container table .outline-hover button {
+  background-color: #7749f8;
+  color: white;
+}
+.type-container table .primary-focus button {
+  background-color: #5227cc;
+  color: white;
+}
+table tr td:first-child {
+  padding: 0px;
+  margin: 0px;
+}

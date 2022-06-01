@@ -1,0 +1,105 @@
+table {
+  margin-top: 54px;
+  width: 100%;
+}
+td,
+th {
+  padding: 16px 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  /* Heading/Title Color */
+
+  color: #152536;
+}
+thead th {
+  text-align: start;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Heading/Title Color */
+
+  color: #152536;
+}
+
+th,
+tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+th {
+  background-color: white;
+}
+td:first-child,
+th:first-child {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Heading/Title Color */
+
+  color: #152536;
+}
+td,
+th {
+  border: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+td:first-child {
+  border-top: none;
+}
+
+.pages {
+  margin-top: 14px;
+  float: right;
+}
+
+.pages li {
+  list-style: none;
+  float: left;
+  border: 1px solid grey;
+}
+.pages li {
+  padding: 12px 14px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  /* Primary/Color */
+
+  color: #7749f8;
+}
+.pages li:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.pages li:first-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  /* Secondary/Light Color */
+
+  color: #abb5be;
+}
+.pages li:last-child {
+}
+
+tr td:first-child,
+th:first-child {
+  padding-right: 161px;
+  padding-left: 20px;
+}

@@ -1,0 +1,51 @@
+.tab-container {
+  width: 70%;
+  overflow: hidden;
+  margin: 24px 0px;
+}
+.tabs {
+  position: relative;
+}
+.tabs::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tabs div {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #6c757d;
+  padding: 9px 22px 10px 25px;
+  border: 1px solid grey;
+  margin: 0px;
+  display: inline-block;
+}
+.tabs div:hover {
+  background-color: aquamarine;
+  text-decoration: underline;
+}
+
+.tabs .active {
+  border-bottom: 0px;
+  padding: 9px 29px 10px 26px;
+}
+
+.tab-container p {
+  margin-top: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #68717a;
+}
+.tabs > div:last-child {
+  border: 0px;
+  border-bottom: 1px solid grey;
+  width: 60%;
+  max-width: 100%;
+}

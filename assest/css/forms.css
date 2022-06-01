@@ -1,0 +1,155 @@
+li {
+  list-style: none;
+}
+
+.container .form-container {
+  margin: 20px 0px 10px;
+}
+.components {
+  float: left;
+  width: 35%;
+}
+.components h2 {
+  margin: 10px 0px;
+}
+.form-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container ul li {
+  padding: 16px 16px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  /* identical to box height, or 100% */
+
+  /* Heading/Title Color */
+
+  color: #152536;
+  background: #ffffff;
+  /* Stroke/light */
+
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0px;
+}
+.container ul li:first-child {
+  border-top: 1px solid #dee2e6;
+}
+.container ul li:nth-child(4) {
+  background-color: rgb(107, 7, 220);
+  color: white;
+}
+.form-input {
+  float: right;
+  width: 60%;
+}
+.form-input h2 {
+  margin: 20px 0 8px;
+}
+.form-input h2 + input {
+  height: 32px;
+  width: 100%;
+  padding: 8px 15px;
+
+  margin: 8px 0px 20px;
+}
+.form-input select {
+  width: 100%;
+  padding: 8px 15px;
+}
+.form-input textarea {
+  width: 300px;
+  padding: 8px 16px;
+  height: 120px;
+}
+.checkbox-container {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  /* Heading/Title Color */
+
+  color: #152536;
+}
+.checkbox-container .block-checkbox {
+  float: left;
+  width: 25%;
+}
+.block-checkbox input label {
+  float: left;
+}
+.block-checkbox input {
+  display: inline;
+  margin: 0px 8px 0px 0px;
+}
+.block-checkbox::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.checkbox-container .inline-checkbox {
+  float: left;
+  width: 60%;
+}
+.inline-checkbox label {
+  width: 100%;
+  margin: 24px 0px;
+}
+.inline-checkbox input {
+  margin: 0px 8px 14px 0px;
+}
+
+.checkbox-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.success {
+  border: 1px solid green;
+}
+.error {
+  border: 1px solid red;
+}
+.radio-container {
+  margin: 20px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  /* Heading/Title Color */
+
+  color: #152536;
+}
+.radio-container .block-radios {
+  float: left;
+  margin: 0px 20px;
+}
+.radio-container .inline-radios {
+  float: left;
+  margin: 0px 20px;
+}
+.radio-container input {
+  margin: 0px 10px;
+}
+.radio-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.validation input {
+  width: 100%;
+  height: 32px;
+}
+.validation label {
+  margin: 20px 0px;
+}

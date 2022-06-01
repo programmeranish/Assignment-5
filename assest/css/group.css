@@ -1,0 +1,58 @@
+li {
+  border-radius: 4px;
+  list-style: none;
+}
+
+.custom-list {
+  float: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* /Gray / White */
+
+  color: black;
+}
+.custom-list li {
+  border: 1px solid grey;
+  height: 120px;
+  width: 369px;
+}
+.custom-list h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 13px 0px 16px 16px;
+}
+.custom-list p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 8px 24px 8px 16px;
+}
+.custom-list small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 8px 24px 8px 16px;
+}
+.list-container span {
+  margin-left: 80px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+}
+.custom-list li:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}

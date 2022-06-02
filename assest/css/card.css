@@ -1,11 +1,17 @@
 .card-container {
-  width: 280px;
-  height:385px;
+  width: 30%;
+  min-width: 200px;
+  margin-right: 5%;
   border: 1px solid grey;
-  background: #FFFFFF;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
-padding: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0px;
+  position: relative;
+  float: left;
+}
+.card-container:last-child {
+  margin-right: 0px;
 }
 .card-header {
   margin: 4px 0px;
@@ -15,7 +21,7 @@ padding: 0px;
   height: 39px;
   width: 39px;
   float: left;
-margin: 17px 11px;
+  margin: 17px 11px;
 }
 .card-header .profile-detail {
   float: left;
@@ -24,10 +30,9 @@ margin: 17px 11px;
 }
 
 .card-header > img {
-
   position: absolute;
   top: 9.5px;
-  right:7px;
+  right: 7px;
 }
 
 .card-image img {
@@ -36,28 +41,131 @@ margin: 17px 11px;
 
 .card-likes {
   width: 100%;
-  height: 20px;
-  margin: 5px 0px;
-  padding: 0px;
+  margin: 0px 25px;
 }
 .card-likes img {
-  margin: 0px;
-  height: 100%;
-  padding: 0px;
-  width: 30%;
+  height: 20px;
+  width: 19.68px;
+  margin: 12px 86.32px 14px 0px;
+  color: black;
+}
+.card-likes img:last-child {
+  margin-right: 0px;
+}
+
+.card-comment {
+  margin: 12px 22px 7px;
 }
 .card-comment img {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
+  margin-right: 13px;
 }
 .card-comment input {
   float: right;
   border-radius: 10px;
-  padding: 6px;
+  padding: 9px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #bdbdbd;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
 }
 
 .card-container hr {
   border: 1px solid grey;
   margin: 0px 0px 10px 0px;
+}
+
+.card-container > img {
+  width: 100%;
+}
+.green-background {
+  position: absolute;
+  top: 207px;
+  left: 39%;
+  width: 59px;
+  height: 59px;
+  background-color: #27ae60;
+  border-radius: 50%;
+}
+.green-background > img {
+  position: absolute;
+
+  top: 21px;
+  left: 24px;
+  color: white;
+}
+
+.second-card-title {
+  width: 100%;
+  margin-top: 44px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #333333;
+}
+.second-card-title + p {
+  margin-top: 5px;
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+
+.card-container .card-detail {
+  margin: 10px;
+}
+
+.card-detail h3 {
+  width: 60px;
+  padding: 5px 10px;
+  background: #27ae60;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.card-detail h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-bottom: 5px;
+}
+.card-detail h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+.card-detail + .comment-section img {
+  width: 24px;
+  height: 24px;
 }

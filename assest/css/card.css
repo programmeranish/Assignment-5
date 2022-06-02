@@ -165,7 +165,21 @@
 
   color: #4f4f4f;
 }
-.card-detail + .comment-section img {
-  width: 24px;
-  height: 24px;
+.third-card .comment-section {
+  margin: 16px 14px;
+}
+.third-card .comment-section img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 3px;
+}
+.third-card h4 {
+  float: left;
+  margin-right: 12.5px;
+}
+
+.comment-interaction {
+  float: left;
 }

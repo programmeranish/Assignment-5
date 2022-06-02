@@ -11,19 +11,7 @@
   display: block;
   clear: both;
 }
-.tabs div {
-  position: relative;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
 
-  color: #6c757d;
-  padding: 9px 22px 10px 25px;
-  border: 1px solid grey;
-  margin: 0px;
-  display: inline-block;
-}
 .tabs div:hover {
   background-color: aquamarine;
   text-decoration: underline;
@@ -43,9 +31,28 @@
 
   color: #68717a;
 }
+.tabs {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .tabs > div:last-child {
   border: 0px;
   border-bottom: 1px solid grey;
-  width: 60%;
-  max-width: 100%;
+  float: none;
+  overflow: hidden;
+  padding: 20px;
+}
+.tabs div {
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #6c757d;
+  padding: 9px 22px 10px 25px;
+  border: 1px solid grey;
+  margin: 0px;
+  float: left;
 }
